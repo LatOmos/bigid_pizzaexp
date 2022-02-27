@@ -1,14 +1,14 @@
-pizza-express is the helm chart for the application.
+*pizza-express* is the helm chart for the application.
 
-lotmas/pizza-express is the docker image in the private repo. 
+*lotmas/pizza-express* is the docker image in the private repo. 
 
 Please update automation.sh with your repo to push image into it.
 
 Redis server is running on kubernetes cluster -- deployed using helm https://bitnami.com/stack/redis/helm.
 
-Application code is cloned - git clone https://github.com/LatOmos/bigid_pizzaexp.git
+Application code is cloned - *git clone https://github.com/LatOmos/bigid_pizzaexp.git*
 
-Updated server.js file to read redis server details from environment variables(REDIS_HOST and REDIR_PASSWORD).
+Updated server.js file to read redis server details from environment variables(*REDIS_HOST* and *REDIR_PASSWORD*).
 
 ```
 client = redis.createClient({
