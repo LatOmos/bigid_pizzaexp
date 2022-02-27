@@ -42,3 +42,4 @@ Output of automation.sh:
 
 <img width="551" alt="image" src="https://user-images.githubusercontent.com/88339614/155887179-c71a07cd-3f98-4a81-9080-0af52c054881.png">
 
+<img width="719" alt="image" src="https://user-images.githubusercontent.com/88339614/155887378-c511636a-e073-4675-904c-6260b25ff4b2.png">
