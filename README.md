@@ -35,5 +35,7 @@ automation.sh scrip to automate
     - Accessing application endpoint to test 200 status code. ```
 
 Output of automation.sh:
-Pushing image after building
-<img width="509" alt="image" src="https://user-images.githubusercontent.com/88339614/155886388-9badb6ec-37b9-47fb-8852-0c5a009a7285.png">
+
+<img width="704" alt="image" src="https://user-images.githubusercontent.com/88339614/155887065-315ecf97-5903-4962-a25f-886a2e780628.png">
+<img width="551" alt="image" src="https://user-images.githubusercontent.com/88339614/155887179-c71a07cd-3f98-4a81-9080-0af52c054881.png">
+
