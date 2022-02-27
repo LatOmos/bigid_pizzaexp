@@ -33,3 +33,7 @@ automation.sh scrip to automate
         ex: /automation.sh <tag>
     - Deploy application using helm chart: helm upgrade --install  demo ./pizza-express -f ./pizza-express/values.yaml --debug
     - Accessing application endpoint to test 200 status code. ```
+
+Output of automation.sh:
+Pushing image after building
+<img width="509" alt="image" src="https://user-images.githubusercontent.com/88339614/155886388-9badb6ec-37b9-47fb-8852-0c5a009a7285.png">
