@@ -29,7 +29,7 @@ kubectl create secret generic my-secret --from-literal=REDIS_HOST=<Redis IP> --f
 Login to Docker registry before running automation.sh scrip.     
 ```
 automation.sh scrip to automate
-    - Build and pushing docker image private registry. Pass the docker image tag as input(need to be customized).
+    - Build and pushing docker image private registry. Pass the docker image tag as input.
         ex: /automation.sh <tag>
     - Deploy application using helm chart: helm upgrade --install  demo ./pizza-express -f ./pizza-express/values.yaml --debug
     - Accessing application endpoint to test 200 status code.
