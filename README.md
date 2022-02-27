@@ -1,3 +1,9 @@
+pizza-express is the helm chart for the application.
+
+lotmas/pizza-express is the docker image in the private repo. 
+
+Please update automation.sh with your repo to push image into it.
+
 Redis server is running on kubernetes cluster -- deployed using helm https://bitnami.com/stack/redis/helm.
 
 Application code is cloned - git clone https://github.com/LatOmos/bigid_pizzaexp.git
