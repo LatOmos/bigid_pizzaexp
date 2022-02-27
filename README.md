@@ -18,7 +18,7 @@ Dockerfile to build new image
 Created helm chart(```helm create <chart_name>```) to deploy our application. This chart deploys application and creates LoadBalancer service to access the application over the internet.
 Docker registry secret must be created before pushing/pulling image to private registry.
 
-    ```kubectl create secret docker-registry pullimage --docker-server=docker.io --docker-username=<DockerUserName> --docker-password=<DockerPasswd> --docker-email=<docker-email-id> ```
+    kubectl create secret docker-registry pullimage --docker-server=docker.io --docker-username=<DockerUserName> --docker-password=<DockerPasswd> --docker-email=<docker-email-id> 
     
 Create secret for redis details
 ```
