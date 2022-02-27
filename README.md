@@ -1,5 +1,6 @@
 Redis server is running on kubernetes cluster -- deployed using helm https://bitnami.com/stack/redis/helm.
-Application code is cloned - git clone https://github.com/OrenAshkenazyBigID/pizza-express.git 
+
+Application code is cloned - git clone https://github.com/LatOmos/bigid_pizzaexp.git
 
 Updated server.js file to read redis server details from environment variables(REDIS_HOST and REDIR_PASSWORD).
 
