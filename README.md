@@ -19,10 +19,13 @@ Created helm chart to deploy our application. This chart deploys application and
 Docker registry secret must be created before pushing/pulling image to private registry.
     ```kubectl create secret docker-registry pullimage --docker-server=docker.io --docker-username=<DockerUserName> --docker-password=<DockerPasswd> --docker-email=<docker-email-id> ```
 Create secret for redis details
-kubectl create secret generic my-secret --from-literal=REDIS_HOST=34.135.70.60 --from-literal=REDIS_PASSWORD=test     
+```
+kubectl create secret generic my-secret --from-literal=REDIS_HOST=<Redis IP> --from-literal=REDIS_PASSWORD=<Redis Password>     
+```
 Login to Docker registry before running automation.sh scrip.     
+```
 automation.sh scrip to automate
     - Build and pushing docker image private registry. Pass the docker image tag as input(need to be customized).
         ex: /automation.sh <tag>
     - Deploy application using helm chart: helm upgrade --install  demo ./pizza-express -f ./pizza-express/values.yaml --debug
-    - Accessing application endpoint to test 200 status code.
+    - Accessing application endpoint to test 200 status code. ```
