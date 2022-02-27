@@ -32,10 +32,13 @@ automation.sh scrip to automate
     - Build and pushing docker image private registry. Pass the docker image tag as input(need to be customized).
         ex: /automation.sh <tag>
     - Deploy application using helm chart: helm upgrade --install  demo ./pizza-express -f ./pizza-express/values.yaml --debug
-    - Accessing application endpoint to test 200 status code. ```
+    - Accessing application endpoint to test 200 status code.
+```
 
 Output of automation.sh:
 
+
 <img width="704" alt="image" src="https://user-images.githubusercontent.com/88339614/155887065-315ecf97-5903-4962-a25f-886a2e780628.png">
+
 <img width="551" alt="image" src="https://user-images.githubusercontent.com/88339614/155887179-c71a07cd-3f98-4a81-9080-0af52c054881.png">
 
